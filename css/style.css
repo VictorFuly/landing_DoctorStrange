@@ -27,13 +27,6 @@ body{
     padding: 80px 128px 50px 128px;
 }
 
-header{
-}
-
-main{
-    background-color: tomato;
-    flex-grow: 1;
-}
 
 footer{
     background-color: violet;
@@ -60,4 +53,60 @@ header{
 
 .link-container a:hover{
     background-color: #e62721;
+}
+
+
+/* Set Main */
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.content-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.title{
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.title .doctor{
+    font-size: 2rem;
+    font-weight: 200;
+    transform: translateY(30px);
+    text-transform: none;
+}
+
+.sub-title{
+    font-size: 2.3rem;
+    font-style: italic;
+    color: #e62721;
+    transform: translateY(-20px);
+    text-transform: uppercase;
+}
+
+.description{
+    font-size: 1.1rem;
+    width: 500px;
+    font-weight: 100;
+}
+
+.button{
+    height: 80px;
+    width: 300px;
+    background-color: #e62721;
+    border-radius: 10px;
+}
+
+.social-container{
+    background-color: lightgreen;
+    width: 48px;
 }
