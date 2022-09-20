@@ -1,7 +1,20 @@
+/* Set body, background, texts and paddings containers */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
 }
 
 body{
@@ -9,4 +22,42 @@ body{
     background: linear-gradient(90deg, #000, #000d 35%, #0000), url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 128px 50px 128px;
+}
+
+header{
+}
+
+main{
+    background-color: tomato;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: violet;
+    height: 21px;
+}
+
+
+/* Set header */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-container{
+    display: flex;
+    gap: 32px;
+}
+
+.link-container a{
+    text-shadow: 2px 2px 2px #000;
+    padding: 6px;
+    transition: all .3s;
+}
+
+.link-container a:hover{
+    background-color: #e62721;
 }
