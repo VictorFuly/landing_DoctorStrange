@@ -37,12 +37,13 @@ header{
 .link-container{
     display: flex;
     gap: 32px;
+    
 }
 
 .link-container a{
     text-shadow: 2px 2px 2px #000;
     padding: 6px;
-    transition: all .1s;
+    transition: all .3s;
 }
 
 .link-container a:hover{
