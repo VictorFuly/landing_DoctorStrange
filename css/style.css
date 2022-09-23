@@ -44,6 +44,7 @@ header{
     text-shadow: 2px 2px 2px #000;
     padding: 6px;
     transition: all .3s;
+    font-weight: bold;
 }
 
 .link-container a:hover{
